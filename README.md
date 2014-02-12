@@ -1,9 +1,9 @@
 revealElements
 ==============
 
-A little jQuery plugin for out of dom elements
+A little jQuery plugin for out of dom elements find in 'lib/' folder
 
-In folder base/ you can see the main idea of this little project,
+In folder 'base/' you can see the main idea of this little project,
 that I have translated into jQuery plugin.
 
 Usage
@@ -11,18 +11,22 @@ Usage
 
 Basic for show all dom elements with reveal class
 
-  ```javascript
-  $.revealElements();
-  ```
+```javascript
+$.revealElements();
+```
   
-More specific, you can choose class 
+More specific, you can choose class of element you want to "reveal", specify the wrapper element, the overlay z-index (auto adjuste the others elements z-index) & overlay color
 
-  ```javascript
-  $.revealElements({
-    revealClass: '.reveal',
-  	wrapperEl: 'body',
-  	state: false,
-  	overlayIndex: 8,
-  	overlayColor: '#000'
-  });
-  ```
+```javascript
+$.revealElements({
+  revealClass: '.reveal',
+	wrapperEl: 'body',
+	overlayIndex: 8,
+	overlayColor: '#000'
+});
+```
+
+Sample
+======
+
+Look index.html & othersample.html ! 
