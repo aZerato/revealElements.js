@@ -1,5 +1,5 @@
-revealElements
-==============
+revealElements.js
+=================
 
 A little jQuery plugin for out of dom elements find in 'lib/' folder
 
@@ -19,7 +19,7 @@ More specific, you can choose class of element you want to "reveal", specify the
 
 ```javascript
 $.revealElements({
-  revealClass: '.reveal',
+	revealClass: '.reveal',
 	wrapperEl: 'body',
 	overlayIndex: 8,
 	overlayColor: '#000'
