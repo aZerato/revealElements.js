@@ -6,6 +6,8 @@ A little jQuery plugin for out of dom elements find in 'lib/' folder
 In folder 'base/' you can see the main idea of this little project,
 that I have translated into jQuery plugin.
 
+> Demo : http://jp.cartoux.net/dev/revealElements.js-master/othersample.html
+
 Usage
 =====
 
